@@ -1,0 +1,137 @@
+/*Helpers*/
+
+.padding-top-md {
+  padding-top: 20px;
+}
+
+.padding-top-bg {
+  padding-top: 40px;
+}
+
+.padding-sm {
+  padding: 5px;
+}
+
+.font-size-md {
+  font-size: 18px !important;
+  font-weight: 300;
+}
+
+/*End Helpers*/
+
+/*Sobreescreve Materialize*/
+blockquote {
+  border-left: 5px solid #26c6da;
+}
+
+h5 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+}
+
+.primary-overlay {
+  background: rgba(63, 57, 77, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.back {
+  min-height: 100%;
+  background: linear-gradient(
+      0deg,
+      rgba(63, 57, 77, 0.8),
+      rgba(63, 57, 77, 0.8)
+    ),
+    url(../img/drill.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-header {
+  background: url(../img/d-e-g-servicos-fabricacao-pouso-alegre.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  min-height: 600px;
+  color: #fff;
+  position: relative;
+}
+
+.main-header .showcase {
+  padding-top: 110px;
+}
+
+.scroll-icon {
+  position: absolute;
+  bottom: 5%;
+  left: 47%;
+  opacity: 0.5;
+}
+body {
+  overflow: hidden;
+}
+
+/* ini: Preloader */
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 999; /* z-index para jogar para frente e sobrepor tudo */
+}
+#preloader .inner {
+  position: absolute;
+  top: 50%; /* centralizar a parte interna do preload (onde fica a animação)*/
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*Sobre teste*/
+
+/*Card Customization*/
+.card {
+  min-height: 205px !important;
+}
+
+.card-title {
+  font-weight: bold !important;
+}
+
+.section-contact {
+  position: relative;
+}
+
+#googlemap {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 600px) {
+  .main-header {
+    height: 50vh;
+  }
+
+  .map {
+    display: none;
+  }
+}
+
